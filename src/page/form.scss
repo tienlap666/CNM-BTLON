@@ -1,5 +1,5 @@
 .formContainer {
-    background-color: #e696ce;
+    background-color:  #F0B7A4;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -15,14 +15,14 @@
       align-items: center;
   
       .logo {
-        color: #aa397f;
+        color: #C18687;
         font-weight: bold;
         font-size: 24px;
   
       }
   
       .title {
-        color: #8f4388;
+        color: #C18687;
         font-size: 12px;
       }
   
@@ -36,15 +36,15 @@
           padding: 15px;
           border: none;
           width: 250px;
-          border-bottom: 1px solid #8f4388;
+          border-bottom: 1px solid #C18687;
+          border-radius: 25px;
           &::placeholder {
             color: rgb(175, 175, 175);
           }
-          border-radius: 25px;
         }
   
         button {
-          background-color: #ca51b0;
+          background-color: #C18687;
           color: white;
           padding: 10px;
           font-weight: bold;
@@ -57,7 +57,7 @@
           display: flex;
           align-items: center;
           gap: 10px;
-          color: #8da4f1;
+          color: #C18687;
           font-size: 12px;
           cursor: pointer;
   

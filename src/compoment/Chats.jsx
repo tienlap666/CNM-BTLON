@@ -7,7 +7,7 @@ const Chats = () => {
       <div className="userChat">
         <img src={Add} />
         <div className="userChatInfo">
-          <span>Tien</span>
+          <span>Name</span>
           <p>Hello</p>
         </div>
       </div>

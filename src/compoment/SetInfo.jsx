@@ -19,7 +19,7 @@ const SetInfo = ({ open, onClose }) => {
           <input className='inputText' required type="password" placeholder="password" />
           <input className='inputText' required type="password" placeholder="enter password" />
           <input className='inputText' required type="text" placeholder="display name" />
-          <div style={{ display: 'flex', color: '#c782c0', marginLeft: 10, marginBottom: -15, marginTop: 5 }}>
+          <div style={{ display: 'flex', color: '#C18687', marginLeft: 10, marginBottom: -15, marginTop: 5 }}>
             <input required type="radio" name="gender" id="" value="Male" onChange={e => setSelected(e.target.value)} />Male
             <input required type="radio" name="gender" id="" value="Female" onChange={e => setSelected(e.target.value)} />Female
           </div>

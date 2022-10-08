@@ -12,7 +12,6 @@ const Chat = () => {
         <span>Name</span>
         <div className="chatIcon">
           <img src={Cam} />
-          <img src={Add} />
           <img src={More} />
         </div>
       </div>

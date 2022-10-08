@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Find from "../img/find3.png";
 import UserChat from './UserChat';
+import Add from "../img/defaultAvatar.png";
+import '../page/Info.scss'
 
 const AddFriend = ({ open, onClose }) => {
 
@@ -16,12 +18,19 @@ const AddFriend = ({ open, onClose }) => {
             <img src={Find} />
             <input type="text" placeholder='Enter Mail Find' />
           </div>
-          <UserChat />
-          <UserChat />
-          <UserChat />
-          <UserChat />
-        </div>
 
+
+
+          <div className="userChatForForm">
+            <img src={Add} />
+            <div className="userChatInfo">
+              <span>Tien</span>
+            </div>
+          </div>
+
+
+
+        </div>
         <button>Find</button>
       </div>
 

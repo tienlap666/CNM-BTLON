@@ -20,18 +20,34 @@ const AddGroup = ({ open, onClose }) => {
           <div className='search'>
             <div className="searchForm">
               <img src={Find} />
-              <input type="text" placeholder='Add Friend Into Group ' />
+              <input required type="text" placeholder='Add Friend Into Group ' />
             </div>
             <p>Nearly Friend</p>
-            <div className='formCheckBox'>
-              <input type="checkbox" name="" id="" /> <UserChat />
+
+
+
+            <div style={{ overflow: 'scroll', overflowX: 'hidden', height: '300px' }}>
+              <div className='formCheckBox'>
+                <input type="checkbox" name="" id="" /> <UserChat />
+              </div>
+              <div className='formCheckBox'>
+                <input type="checkbox" name="" id="" /> <UserChat />
+              </div>
+              <div className='formCheckBox'>
+                <input type="checkbox" name="" id="" /> <UserChat />
+              </div>
+              <div className='formCheckBox'>
+                <input type="checkbox" name="" id="" /> <UserChat />
+              </div>
+              <div className='formCheckBox'>
+                <input type="checkbox" name="" id="" /> <UserChat />
+              </div>
+              <div className='formCheckBox'>
+                <input type="checkbox" name="" id="" /> <UserChat />
+              </div>
             </div>
-            <div className='formCheckBox'>
-              <input type="checkbox" name="" id="" /> <UserChat />
-            </div>
-            <div className='formCheckBox'>
-              <input type="checkbox" name="" id="" /> <UserChat />
-            </div>
+
+
 
           </div>
           <button>Save</button>

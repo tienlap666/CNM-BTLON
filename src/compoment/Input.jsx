@@ -9,7 +9,7 @@ const Input = () => {
       <div className="send">
         <img src="" alt="" />
         <input id='file' type="file" style={{display: "none"}} />
-        <label htmlFor='file'>
+        <label htmlFor='file' style={{display:'flex'}}>
           <img src={myIMG} alt=''/>
           <img src={Attach} alt=''/>
         </label>

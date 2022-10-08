@@ -18,7 +18,7 @@ const Navbar = () => {
         <img src={Add} alt='' onClick={() => seTopenInfo(true)}></img>
         <span onClick={() => seTopenInfo(true)}>Lap</span>
         <button  >Logout</button>
-        <HiUserAdd onClick={() => seTopenAddFriend(true)} />
+        <HiUserAdd className='icons' onClick={() => seTopenAddFriend(true)} />
         <MdOutlineGroupAdd className='icons' onClick={()=> setOpenAddGroup(true)}/>
 
       </div>
